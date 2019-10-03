@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <div class="title">
+  <head>
+      <h1>Sample Header</h1>
+  </head>
+    <p><a href="link">anchor tag to nowhere</a></p>
+  </div>
+  <style>
+  /* 
+    Place your fresh CSS styles here to help organize the page
+  */
+  .title {
+      background: grey;
+      text-align: center
+  }
+  h1 {
+      text-align:center
+  }
+
+.wrapper {
+  height: 100vh;
+  width: 100%;
+  background: grey;
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.second_container {
+  background: pink;
+  height: 150px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background: red;
+  height: 100px;
+  width: 30%;
+  margin: 20px
+}
+
+.second_textbox {
+  background: lightblue;
+  height: 100px;
+  width: 30%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto
+}
+
+  </style>
+</head>
+
+<body>
+<div class="wrapper">
+    <div class="second_container">
+      <p>hello</p>
+    </div>
+    <div class="container">
+      <p>
+        click me i'm great
+      </p>
+    </div>
+    <div class="second_textbox">
+        <p>
+          World #2
+        </p>
+    </div>
+</div>
+</body>
+
+</html>
